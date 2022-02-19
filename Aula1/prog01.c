@@ -11,7 +11,7 @@ int main()
     srand(time(0));
     v[0] = 7;
     for (i=0 ; i<500 ; i++) 
-        v[i] = v[i-1] + rand() % 10;
+        v[i] = v[i-1] + rand()%10;
     
     for (i=0 ; i<500 ; i++)
         printf("%d ", v[i]);
