@@ -39,7 +39,7 @@ void meMaValor(int v[], const int N, int *menor, int *maior)
 
 }
 
-void meMaValor2(int v[], const int N, int *menor, int *maior)
+/*void meMaValor2(int v[], const int N, int *menor, int *maior)
 {
     int  i;
     int mm[2];
@@ -53,7 +53,7 @@ void meMaValor2(int v[], const int N, int *menor, int *maior)
             mm[1] = v[i];
     return mm;
 
-}
+}*/
 
 int main(){
 
