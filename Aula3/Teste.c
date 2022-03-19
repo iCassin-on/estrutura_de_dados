@@ -29,15 +29,16 @@ typedef struct no {
 // Protótipos/Assinaturas das funções
 No* inserirNoInicioDaLista(No*, Evento);
 {
-    novo, valor, prox;
-        if(novo){
-        novo->valor = num; // preenche o campo valor
-        novo->prox = *lista; // o próximo do novo nó aponta para o início da lista
-        *lista = novo; // o início da lista passa a ser o novo nó
-    }
+    novoNo = (No*) malloc(sizeof (No));
+    NovoNo -> info =info;
+    if (lista == NULL)
+        novoNo ->prox = NULL;
     else
-        printf("Erro ao alocar memoria!\n");
+        novoNo -> prox = lista;
 
+    lista = novoNo
+
+    return Lista;
 }
 void imprimirLista(No*);
 
