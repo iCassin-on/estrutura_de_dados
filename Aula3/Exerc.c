@@ -30,6 +30,7 @@ typedef struct no {
 No* inserirNoInicioDaLista(No*, Evento);
 {
     novo, valor, prox;
+    
         if(novo){
         novo->valor = num; // preenche o campo valor
         novo->prox = *lista; // o próximo do novo nó aponta para o início da lista
